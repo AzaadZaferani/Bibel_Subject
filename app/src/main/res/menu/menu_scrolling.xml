@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bibel.subject.azaad.ScrollingActivity">
+
+
+    <item
+        android:id="@+id/Website"
+        android:orderInCategory="100"
+        android:title="نمایش وب سایت"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/bibel_download"
+        android:orderInCategory="100"
+        android:title="دانلود کتاب مقدس"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>

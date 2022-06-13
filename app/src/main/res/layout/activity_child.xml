@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Child">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">>
+            <TextView
+                android:id="@+id/child_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/child_titel"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_child01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_01" />
+
+            <Button
+                android:id="@+id/btn_child02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_02" />
+
+            <Button
+                android:id="@+id/btn_child03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_03" />
+
+            <Button
+                android:id="@+id/btn_child04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_04" />
+
+            <Button
+                android:id="@+id/btn_child05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_05" />
+
+            <Button
+                android:id="@+id/btn_child06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_06" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

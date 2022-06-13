@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bibel.subject.azaad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.فهرستموضوعیکتابمقدس">
+        <activity
+            android:name=".Forootani_khedmat"
+            android:exported="false" />
+        <activity
+            android:name=".Ghanaaat"
+            android:exported="false" />
+        <activity
+            android:name=".Mohabat"
+            android:exported="false" />
+        <activity
+            android:name=".Iman"
+            android:exported="false" />
+        <activity
+            android:name=".Jahanam"
+            android:exported="false" />
+        <activity
+            android:name=".Bakhshesh_gonahan"
+            android:exported="false" />
+        <activity
+            android:name=".Hekmat"
+            android:exported="false" />
+        <activity
+            android:name=".Tobe"
+            android:exported="false" />
+        <activity
+            android:name=".Hayate_javidan"
+            android:exported="false" />
+        <activity
+            android:name=".HayateVaafer"
+            android:exported="false" />
+        <activity
+            android:name=".Davari"
+            android:exported="false" />
+        <activity
+            android:name=".Child"
+            android:exported="false" />
+        <activity
+            android:name=".Wife"
+            android:exported="false" />
+        <activity
+            android:name=".Entegham"
+            android:exported="false" />
+        <activity
+            android:name=".Raasti"
+            android:exported="false" />
+        <activity
+            android:name=".Under_construction"
+            android:exported="false" />
+        <activity
+            android:name=".Omid"
+            android:exported="false" />
+        <activity
+            android:name=".Etaat"
+            android:exported="false" />
+        <activity
+            android:name=".Doa"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.فهرستموضوعیکتابمقدس.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
